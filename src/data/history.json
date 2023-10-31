@@ -1,0 +1,38 @@
+[
+    {
+      "role": "Software Quality Engineer II",
+      "organisation": "Baxter International",
+      "startDate": "July, 2023",
+      "endDate": "Present",
+      "experiences": [
+        "Ensuring integrity and compliance of software systems used in critical healthcare applications.", 
+        "Testing and validation of computerized systems."
+        ],
+      "imageSrc": "history/baxter.png"
+    },
+    {
+      "role": "Software Quality Engineer I",
+      "organisation": "Edwards Lifesciences",
+      "startDate": "Jan, 2022",
+      "endDate": "July, 2023",
+      "experiences": [
+        "Ensuring highest standards of safety and reliability of software used for manufacturing medical devices.",
+        "Develop testing plans and identifying defects, risks or hazards."
+        ],
+      "imageSrc": "history/edwards.png"
+    },
+    {
+      "role": "Energy Efficiency Advisor, Project Supervisor, Workshop Manager, Electronics Repair Technician",
+      "organisation": "Unitrade",
+      "startDate": "May, 2014",
+      "endDate": "Dec, 2021",
+      "experiences": [
+        "Advice to clients regarding photovoltaic solutions, at residential or commercial scale.",
+        "Design and supervision of photovoltaic projects.",
+        "Direction of area and tasks and team organization.",
+        "Specialized technical support to clients in UPS, inverters and batteries."
+      ],
+      "imageSrc": "history/unitrade.png"
+    }
+  ]
+  

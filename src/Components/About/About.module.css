@@ -1,0 +1,124 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutImage {
+    width: 35%;
+    margin-right: 30px;
+    border-radius: 50px;
+    transition: 0.4s ease-in-out;
+}
+
+.aboutImage:hover {
+    transform: scale(1.10);
+}
+
+.aboutItems {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.aboutItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.aboutItem:hover {
+    background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0.3rem;
+}
+
+.aboutItem img {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItem {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .aboutItem img {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutItemText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .aboutItemText h3 {
+        margin: 0.5rem;
+    }
+}
