@@ -18,8 +18,8 @@ export const Navbar = () => {
                 onClick = {() => setMenuOpen(!menuOpen)} // switch state when menu icon is clicked
                 />
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-                    onClick = {() => setMenuOpen(false)}
-                >
+                    onClick = {() => setMenuOpen(false)} 
+                > {/* If menuOpen state is true, render the className to assign it to the ul tag */}
                     {/* If menuOpen state is true, render the className to assign it to the ul tag */}
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience & Skills</a></li>

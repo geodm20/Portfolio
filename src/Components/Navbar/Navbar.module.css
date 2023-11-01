@@ -76,27 +76,32 @@
 
     .menu {
         position: absolute;
+        top: 0;
         right: 0;
-        margin-right: 10%;
         flex-direction: column;
         align-items: flex-end;
         gap: 11px;
         z-index: 3;
+        /* Eliminated margin-right. Added top: 0. */
     }
 
     .menuBtn {
-        display: block;
+        display: flex;
         cursor: pointer;
+        z-index: 2;
+        position: absolute;
+        top: 67px;
+        right: 3rem;
+        /* Added position absolute and parameters to the button */
     }
 
     .menuItems {
         display: none;
         flex-direction: column;
         align-items: center;
-        gap: 13px;
-        border-radius: 10px;
+        gap: 20px;
         background: rgb(25, 55, 109);
-        background: linear-gradient(0deg, rgba(25, 55, 109, 0.40) 0%, rgba(25, 55, 109, 0.9) 100%);
+        background: linear-gradient(0deg, rgba(25, 55, 109, 0.98) 0%, rgba(25, 55, 109, 0.98) 100%);
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }
@@ -104,6 +109,17 @@
     .menuOpen {
         display: flex;
         z-index: 1;
+        position: absolute;
+        right: -16.3px;
+        top: 0;
+        min-width: 100vw;
+        min-height: 100vh;
+        /* Viewport width and height to occupy all the screen. Position absolute to be just like the .menu. */
+        /* I had to use right: -15px because for some reason there was a space that I could not take away */
+    }
+
+    .menuItems a {
+        font-size: 30px;
     }
 
 }

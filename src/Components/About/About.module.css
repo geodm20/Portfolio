@@ -74,6 +74,10 @@
     margin-right: 20px;
 }
 
+.aboutItemText p {
+    font-size: 18px;
+}
+
 @media screen and (max-width: 1000px) {
     .container {
         background-color: transparent;
