@@ -1,6 +1,8 @@
 :root {
     /* Colours */
     --color-text: #fff;
+    --color-paragraphs: rgba(210, 210, 210, 0.90);
+    --text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
     --color-primary: #576cbc;
     --color-secondary: #19376d;
     --color-dark: #0b2447;

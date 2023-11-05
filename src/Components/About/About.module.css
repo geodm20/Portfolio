@@ -76,6 +76,11 @@
 
 .aboutItemText p {
     font-size: 18px;
+    color: var(--color-paragraphs)
+}
+
+.aboutItemText h3 {
+    text-shadow: var(--text-shadow)
 }
 
 @media screen and (max-width: 1000px) {
@@ -124,5 +129,6 @@
 
     .aboutItemText h3 {
         margin: 0.5rem;
+        font-size: 23px;
     }
 }
