@@ -27,14 +27,14 @@ export const About = () => {
                         <img src={getImageUrl("about/ml.png")} alt="ML icon" />
                         <div className={styles.aboutItemText}>
                             <h3>Machine Learning</h3>
-                            <p>As new technologies arise, I believe it's important to keep learning and applying this knowledge to existing projects. Machine Learning and AI are an excelent feature for websites.</p>
+                            <p>As new technologies arise, I believe it's important to keep learning and applying this knowledge to existing projects. Machine Learning and AI are excellent features for websites.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/hobbies.png")} alt="Hobbies icon" />
                         <div className={styles.aboutItemText}>
                             <h3>Hobbies</h3>
-                            <p>I'm also a normal person with tastes and hobbies! I love reading science fiction, swimming, astronomy and backpacking. Stimulate imagination and connecting with nature is important to me.</p>
+                            <p>I'm also a normal person with tastes and hobbies! I love reading science fiction, swimming, astronomy and backpacking. Stimulating my imagination and connecting with nature is important to me.</p>
                         </div>
                     </li>
                 </ul>

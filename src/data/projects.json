@@ -3,17 +3,17 @@
       "title": "Prop Firm",
       "imageSrc": "projects/one-funded.png",
       "description": "My first project, inspired in trading prop firms like FTMO and others.",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "demo": "https://lucky-puppy-193e6f.netlify.app/",
+      "skills": ["HTML", "CSS", "JavaScript", "API"],
+      "demo": "https://tradingpropfirm.netlify.app/",
       "source": "https://github.com/geodm20/Prop-Firm"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Movies",
+      "imageSrc": "projects/movies.png",
+      "description": "Most recent movie searcher with TheMovieDB API, made with React.",
+      "skills": ["React", "CSS", "API"],
+      "demo": "https://mostrecentmovies.netlify.app/",
+      "source": "https://github.com/geodm20/Movies"
     },
     {
       "title": "Project C",
