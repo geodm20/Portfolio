@@ -53,10 +53,10 @@ export const Navbar = () => {
                         right: ulRight
                     }}
                 > {/* If menuOpen state is true, render the className to assign it to the ul tag */}
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience & Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li onClick={turnOffMenu}><a href="#about">About</a></li>
+                    <li onClick={turnOffMenu}><a href="#experience">Experience & Skills</a></li>
+                    <li onClick={turnOffMenu}><a href="#projects">Projects</a></li>
+                    <li onClick={turnOffMenu}><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
