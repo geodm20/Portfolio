@@ -16,12 +16,12 @@
       "source": "https://github.com/geodm20/Movies"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "DevJobs",
+      "imageSrc": "projects/devjobs.png",
+      "description": "Developer Jobs page using raw data stored in a JSON file. Search filters available.",
+      "skills": ["React", "CSS"],
+      "demo": "https://developjobs.netlify.app/",
+      "source": "https://github.com/geodm20/DevJobs"
     }
   ]
   
