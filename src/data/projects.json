@@ -1,4 +1,11 @@
-[
+[   {
+      "title": "Star Wars",
+      "imageSrc": "projects/star-wars.png",
+      "description": "Star Wars fan page: why I like it, with movie section and details, and characters gallery.",
+      "skills": ["React", "Tailwind", "API"],
+      "demo": "https://starwarsfanpage.netlify.app/",
+      "source": "https://github.com/geodm20/Star-Wars-fan-page"
+    },
     {
       "title": "Prop Firm",
       "imageSrc": "projects/one-funded.png",
