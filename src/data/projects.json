@@ -1,10 +1,18 @@
 [   {
-      "title": "Star Wars",
+      "title": "Star Wars Fan Page",
       "imageSrc": "projects/star-wars.png",
       "description": "Star Wars fan page: why I like it, with movie section and details, and characters gallery.",
       "skills": ["React", "Tailwind", "API"],
       "demo": "https://starwarsfanpage.netlify.app/",
       "source": "https://github.com/geodm20/Star-Wars-fan-page"
+    },
+    {
+      "title": "Trail Depot RD",
+      "imageSrc": "projects/trail-depot.png",
+      "description": "Trail Depot RD is a renting business for backpacking items and this is its web page.",
+      "skills": ["WordPress", "Plugins"],
+      "demo": "https://traildepotrd.com/",
+      "source": ""
     },
     {
       "title": "Prop Firm",

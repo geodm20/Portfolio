@@ -38,6 +38,10 @@
     {
       "title": "Postgres",
       "imageSrc": "skills/postgres.png"
+    },
+    {
+      "title": "WordPress",
+      "imageSrc": "skills/wordpress.png"
     }
   ]
   
